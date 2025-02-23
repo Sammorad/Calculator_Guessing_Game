@@ -1,5 +1,5 @@
 # Calculator and Guessing Game Project
-###. The calculator Project
+### The calculator Project
 
 The calculator was designed to accept two numbers and can perform any of four operations at a time.
 This operations will include addition, subtraction, division and multiplication 
