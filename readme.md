@@ -1,10 +1,11 @@
 # Calculator and Guessing Game Project
-#1. The calculator Project
+###. The calculator Project
+
 The calculator was designed to accept two numbers and can perform any of four operations at a time.
 This operations will include addition, subtraction, division and multiplication 
 At instances where user wrongly inputs an operator the calculator returns an error message. 
 
-#The Guessing Game Project
+### The Guessing Game Project
 
 In this game, users are allowed to guess the integer input into the system. 
 when the users guess is lower the game returns a warning message 
