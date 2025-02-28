@@ -8,6 +8,8 @@ This operations will include addition, subtraction, division and multiplication
 The system is designed to validate user inputs. Such that inputs can only be integers or floats.
 At instances where user wrongly inputs an operator the calculator returns an error message.  
 
+
+
 ## The Guessing Game Project
 
 In this game, users are allowed to guess the integer input into the system.  
@@ -20,4 +22,8 @@ And a list has been created to help validate when the user enters a number twice
 So doing the life count of the user remains unchanged. 
 Worth nothing is dt there is a maximum number of guess.  
 The maximum numbers can be adjusted by the admin who has access to the code 
+
+### Random Number Generation 
+
+The guessing game generates random numbers on its own and it lets the user know the correct number at the end of each game. 
 
