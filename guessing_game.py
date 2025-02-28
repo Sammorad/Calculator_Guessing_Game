@@ -2,11 +2,11 @@ import pyinputplus as pyin
 import random as rn 
 n = rn.randint(0,15)
 guess = pyin.inputInt(prompt := "make a guess: ")
-life_count = 7
+life_count = 3
 guess_list = []
 guess = int(guess)
 guess_count = 0
-while (guess_count < 10) and (guess != n) and life_count > 0:
+while (guess_count < 5) and (guess != n) and life_count > 0:
         
     if (guess > n) and (guess in guess_list):
         print("guess is too high")
@@ -29,4 +29,5 @@ while (guess_count < 10) and (guess != n) and life_count > 0:
     guess = pyin.inputInt(prompt:= "make a guess: ")
 print(f"the correct number is {n}")
         
+     
      
