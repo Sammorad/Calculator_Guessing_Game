@@ -1,8 +1,7 @@
-num1 = input("First Number: ")
+import pyinputplus as pyip
+num1 = pyip.inputNum(prompt := "First Number: ")
 operator = input("operator : ")
-num2 = input("Second Number ")
-num1 = float(num1) # first number 
-num2 = float(num2) # second number 
+num2 = pyip.inputNum(prompt := "Second Number: ")
 if operator == "+": 
     print(num1 + num2)
 elif operator == "-":
