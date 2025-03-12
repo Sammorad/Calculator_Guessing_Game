@@ -16,4 +16,3 @@ try:
         print("check operator")
 except: 
     print("invalid input, correct format: A + B")
-print(num)
