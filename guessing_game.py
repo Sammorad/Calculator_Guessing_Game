@@ -9,12 +9,7 @@ and a count for the guess made by the perticipant
 guess_count = 0
 life_count = 3
 guess_list = []
-guess_count > 0 and guess_count < 5
-life_count > 0 and life_count < 3
-while True:
-    """This loop keeps the game running as long 
-        as the life count is higher than zero and 
-        participants made less than 5 guesses""" 
+while True: 
     guess = int(pyin.inputInt(prompt := "make a guess: ") )
     if guess_count > 5 or life_count == 0:
         print(f"game over. The correct number is {n}")
