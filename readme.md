@@ -5,6 +5,7 @@ The calculator was designed to accept two numbers and can perform any of four op
 This operations will include addition, subtraction, division and multiplication  
 
 ### Initialization and Validation 
+
 The system is designed to validate user inputs. Such that inputs can only be integers or floats.
 At instances where user wrongly inputs an operator the calculator returns an error message.  
 

@@ -7,8 +7,8 @@ def calculator():
         """lets take care of invalid inputs"""
         try: 
             num = details.split(" ")
-            num[0] = int(num[0])
-            num[2] = int(num[2])
+            num[0] = float(num[0])
+            num[2] = float(num[2])
 
         except:
             print("invalid input correct format : A + B")
